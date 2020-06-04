@@ -1,5 +1,6 @@
 /* Add CSS styling here */
 
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -53,4 +54,13 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+
+/* everything above is css reset. new styling below here. */
+
+
+
+html{
+    font-size: 62.5%;
 }
