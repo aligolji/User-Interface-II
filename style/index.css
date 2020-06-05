@@ -71,6 +71,11 @@ html{
 	font-size: 1.6rem;
 } */
 
+header{
+	width: 100%;
+	height: 15rem;
+}
+
 h1{
 	font-size: 5rem;
 	margin-left: 2rem;
@@ -83,12 +88,13 @@ nav{
 	height: 3rem;
 	width: 30%;
 	margin: 2rem 0rem 2rem 4rem;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 
 nav a{
 	width: 25%;
 	text-align: center;
+	text-decoration: none;
 }
 
 .top-section{
@@ -97,24 +103,44 @@ nav a{
 }
 
 .top-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 50%;
+}
+
+#main-image{
+	width: 50rem;
+	height: 30rem;
+	padding: 1rem;
 }
 
 .my-name-blurb{
 	width: 50%;
 }
 
-.gallery{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	justify-content: space-between;
-	height: 25rem;
-	padding-top: 5rem;
-	margin: 0 1rem;
-	
+.small-name{
+	height: 30%;
+	font-size: 2.5rem;
 }
 
+.top-gallery{
+	display: flex;
+}
+
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;	
+}
+
+.galimage{
+	height: 30rem;
+	width: 100%;
+}
 .gallery img{
 	height: 20rem;
 	width: 20rem;
@@ -125,7 +151,7 @@ nav a{
 	flex-direction: row;
 	justify-content: center;
 	justify-content: space-between;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
 .gallery-labels h3{
@@ -133,4 +159,21 @@ nav a{
 	text-align: center;
 	margin: 1rem;
 	padding: 0.5rem;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20rem;
+
+}
+
+#contact-me{
+	width: 17%;
+	height: 4rem;
+	text-align: center;
+	font-size: 1.2;
 }
