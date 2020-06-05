@@ -59,7 +59,7 @@ table {
 
 /* <------everything above is css reset. new styling below here.------> */
 
-
+/* <---------header-------------> */
 
 html {
 	font-family: 'Shadows Into Light', cursive;
@@ -121,106 +121,31 @@ nav a:hover {
 	background-color: #bfd7ea;
 	color: #0b3954;
 }
+/* <-------------end header-------------------> */
 
-
-.top-section {
+.middle-section {
 	display: flex;
-	height: 40rem;
+	height: 50rem;
 }
 
-.top-image{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 50%;
-}
-
-#main-image {
-	width: 50rem;
-	height: 35rem;
-	padding: 2rem 1rem;
-}
-
-.blurb-container {
-	display: flex;
-	align-items: end;
-	width: 50%;
-	height: 100%;
-	padding: 4.5rem 7rem;
-}
-
-.name-blurb {
-	display: flex;
-	height: 80%;
-	flex-direction: column;
-	justify-content: space-between;
-	/* justify-content: flex-end; */
-}
-
-.name-blurb h2 {
-	font-size: 2.3rem;
+.all-info h2 {
+	font-size: 3rem;
 	font-weight: bold;
 	color: #03045e;
+	margin-top: 5rem;
+	margin-left: 10rem;
 }
 
-#my-projects-button {
-	font-family: 'Shadows Into Light', cursive;
-	width: 15rem;
-	height: 3rem;
-	text-align: center;
-	font-size: 1.2;
-	background-color: #0077b6;
-	border: 0.2rem hidden;
-	color: white;
-	font-weight: bold;
-	letter-spacing: .2rem;
-	border-radius: 0.5rem;
+.my-info {
+	font-size: 2.5rem;
+	letter-spacing: 0.2rem;
+	margin-top: 1rem;
+	margin-left: 10rem;
 }
 
-#my-projects-button:hover {
-	background-color: #9d4edd;
-	color: #ffc857;
-}
 
-.words-about-me {
-	display: flex;
-	flex-grow: 0;
-	font-size: 2.3rem;
-}
 
-.gallery-container {
-	display: flex;
-}
-
-.gallery {
-	display: flex;
-	flex-wrap: wrap;
-	width: 50%;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;	
-}
-
-.galimage {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 30rem;
-	width: 100%;
-}
-.gallery img {
-	height: 25rem;
-	width: 25rem;
-	padding: 1rem;
-}
-
-.gallery-container h3 {
-	width: 20rem;
-	text-align: center;
-	font-size: 1.5rem;
-	letter-spacing: 0.3rem;
-}
+/* <----------------footer from here down----------------> */
 
 footer {
 	display: flex;
@@ -239,7 +164,7 @@ footer h2 {
 	letter-spacing: 0.2rem;
 }
 
-#contact-me {
+#take-me-home {
 	font-family: 'Shadows Into Light', cursive;
 	width: 15rem;
 	height: 4rem;
@@ -255,7 +180,7 @@ footer h2 {
 
 
 
-#contact-me:hover {
+#take-me-home:hover {
 	background-color: #0b3954;
 	color: #bfd7ea;
 }
