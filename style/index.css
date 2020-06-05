@@ -29,7 +29,7 @@ time, mark, audio, video {
     box-sizing: border-box;
     max-width: 100%;
 
-/* dont forget to comment out border when done */
+/* dont forget to comment out border when done============> */
     border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
@@ -57,49 +57,52 @@ table {
 }
 
 
-/* everything above is css reset. new styling below here. */
+/* <------everything above is css reset. new styling below here.------> */
 
 
 
-html{
+html {
 	font-size: 62.5%;
 	width: 100rem;
 	margin: auto;
 }
 
-/* body{
-	font-size: 1.6rem;
-} */
-
-header{
+header {
 	width: 100%;
-	height: 15rem;
+	height: 13rem;
+	border-bottom: 0.3rem solid red;
+	background-color: lightgray;
 }
 
-h1{
-	font-size: 5rem;
-	margin-left: 2rem;
+h1 {
+	font-size: 4.5rem;
+	padding-left: 2rem;
+	padding-top: 2rem;
 }
 
-nav{
+nav {
 	display: flex;
-	justify-content: flex-start;
 	align-items: center;
-	height: 3rem;
-	width: 30%;
-	margin: 2rem 0rem 2rem 4rem;
+	height: 4rem;
+	width: 35%;
+	margin-left: 4rem;
+	margin-top: 1rem;
 	font-size: 1.2rem;
 }
 
-nav a{
+nav a {
 	width: 25%;
+	height: 2.5rem;
 	text-align: center;
 	text-decoration: none;
-}
+	border: 0.2rem solid red;
+	font-size: 1.2rem;
+	padding: 0.5rem 0rem;
+	}
 
-.top-section{
+.top-section {
 	display: flex;
-	height: 30rem;
+	height: 40rem;
 }
 
 .top-image{
@@ -109,26 +112,54 @@ nav a{
 	width: 50%;
 }
 
-#main-image{
+#main-image {
 	width: 50rem;
-	height: 30rem;
-	padding: 1rem;
+	height: 35rem;
+	padding: 2rem 1rem;
 }
 
-.my-name-blurb{
+.blurb-container {
+	display: flex;
+	align-items: end;
 	width: 50%;
+	height: 100%;
+	/* padding-bottom: 4.5rem; */
+	padding: 4.5rem 7rem;
 }
 
-.small-name{
-	height: 30%;
-	font-size: 2.5rem;
+.name-blurb {
+	display: flex;
+	height: 80%;
+	flex-direction: column;
+	align-content: space-between;
+	/* align-items: flex-start;
+	align-content: flex-end; */
 }
 
-.top-gallery{
+.name-blurb h2 {
+	font-size: 2.3rem;
+}
+
+#my-projects-button {
+		width: 15rem;
+		height: 3rem;
+		text-align: center;
+		font-size: 1.2;
+		background-color: white;
+		border: 0.2rem solid red;
+}
+
+.words-about-me {
+	font-size: 2.3rem;
+}
+
+
+
+.gallery-container {
 	display: flex;
 }
 
-.gallery{
+.gallery {
 	display: flex;
 	flex-wrap: wrap;
 	width: 50%;
@@ -137,43 +168,47 @@ nav a{
 	align-items: center;	
 }
 
-.galimage{
+.galimage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 30rem;
 	width: 100%;
 }
-.gallery img{
-	height: 20rem;
-	width: 20rem;
+.gallery img {
+	height: 25rem;
+	width: 25rem;
+	padding: 1rem;
 }
 
-.gallery-labels{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	justify-content: space-between;
-	font-size: 1.5rem;
-}
-
-.gallery-labels h3{
+.gallery-container h3 {
 	width: 20rem;
 	text-align: center;
-	margin: 1rem;
-	padding: 0.5rem;
+	font-size: 2rem;
 }
 
-footer{
+footer {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100%;
 	height: 20rem;
+	background-color: lightgray;
 
 }
 
-#contact-me{
-	width: 17%;
+footer h2 {
+	font-size: 2.3rem;
+	margin-bottom: 2rem;
+}
+
+#contact-me {
+	width: 15%;
 	height: 4rem;
 	text-align: center;
 	font-size: 1.2;
+	background-color: white;
+	border: 0.2rem solid red;
 }
