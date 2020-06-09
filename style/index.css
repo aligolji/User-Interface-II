@@ -87,8 +87,8 @@ nav {
 	width: 40%;
 	margin-left: 4rem;
 	margin-top: 1rem;
+	margin-bottom: .5rem;
 	font-size: 1.2rem;
-	margin: .2rem;
 }
 
 nav a {
@@ -135,8 +135,8 @@ nav a:hover {
 }
 
 #main-image {
-	width: 50rem;
-	height: 35rem;
+	width: 90%;
+	/* height: 90%; */
 	padding: 2rem 1rem;
 }
 
@@ -245,7 +245,7 @@ footer h2 {
 	width: 15rem;
 	height: 4rem;
 	text-align: center;
-	font-size: 1.2;
+	font-size: 1.2rem;
 	background-color: #caf0f8;
 	border: 0.2rem solid #054a91;
 	border-radius: 0.5rem;
