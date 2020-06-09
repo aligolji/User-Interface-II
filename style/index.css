@@ -30,7 +30,7 @@ time, mark, audio, video {
     max-width: 100%;
 
 /* dont forget to comment out border when done============> */
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -60,8 +60,7 @@ table {
 /* <------everything above is css reset. new styling below here.------> */
 
 
-
-html {
+body {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 62.5%;
 	width: 100rem;
@@ -271,3 +270,29 @@ footer h2 {
 .LI-simple-link:hover {
 	font-size: 2.5rem;
 }
+
+/* ===== media query starting at 800px width max */
+
+@media(max-width:800px){
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		border:1px solid red;
+		display:flex;
+		width:80%;
+		margin: 1rem auto;
+}
+nav a{
+	
+}
+
+
+
+
+
+}
+
+
+/* ===== media query starting at 500px width max */
