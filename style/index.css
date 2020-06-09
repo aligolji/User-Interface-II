@@ -64,7 +64,7 @@ body {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 62.5%;
 	width: 100rem;
-	margin: auto;
+	margin: 0 auto;
 }
 
 /* header styles starts here */
@@ -199,7 +199,7 @@ nav a:hover {
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	width: 48%;
+	width: 50%;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;	
@@ -339,26 +339,20 @@ footer h2 {
 
 	/* gallery styles start here */
 
-	.gallery-container {
+	/* .gallery-container {
 	}
 
 	.gallery {
 	}
 
-}
+} */
 
 
 /* ===== media query starting at 500px width max */
 
-/* header styles at 800px */
+/* header styles at 500px */
 
-@media(max-width:500px) {
-	header nav {
-		display:flex;
-		flex-direction: vertical;
-		/* flex-wrap: wrap; */
-		justify-content: center;
-	}
+
 
 
 
