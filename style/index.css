@@ -63,7 +63,6 @@ table {
 body {
 	font-family: 'Shadows Into Light', cursive;
 	font-size: 62.5%;
-	width: 100rem;
 	margin: 0 auto;
 }
 
@@ -87,7 +86,7 @@ nav {
 	display: flex;
 	align-items: center;
 	height: 4rem;
-	width: 35%;
+	width: 40%;
 	margin-left: 4rem;
 	margin-top: 1rem;
 	font-size: 1.2rem;
@@ -100,7 +99,7 @@ nav a {
 	text-decoration: none;
 	border: 0.2rem solid #054a91;
 	border-radius: 0.5rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	padding: 0.5rem 0rem;
 	background-color: #caf0f8;
 	color: #03045e;
@@ -147,7 +146,7 @@ nav a:hover {
 	align-items: end;
 	width: 50%;
 	height: 100%;
-	padding: 4.5rem 7rem;
+	padding: 4.5rem 4rem;
 }
 
 .name-blurb {
@@ -158,7 +157,7 @@ nav a:hover {
 }
 
 .name-blurb h2 {
-	font-size: 2.3rem;
+	font-size: 1.7rem;
 	font-weight: bold;
 	color: #03045e;
 }
@@ -185,45 +184,40 @@ nav a:hover {
 .words-about-me {
 	display: flex;
 	flex-grow: 0;
-	font-size: 2.3rem;
+	font-size: 1.7rem;
+	padding-bottom: 2rem;
 }
 
 /* top section styles end here */
 
 /* gallery styles start here */
 
-.gallery-container {
-	display: flex;
-}
-
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	width: 50%;
+	width: 100%;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+	margin: 1px;
 }
 
 .galimage {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-	height: 30rem;
-	width: 100%;
+	width: 25%;
 }
 .gallery img {
-	height: 25rem;
-	width: 25rem;
 	padding: 1rem;
 }
 
-.gallery-container h3 {
-	width: 20rem;
+.gallery h3 {
+	width: 90%;
 	text-align: center;
-	font-size: 1.5rem;
-	letter-spacing: 0.3rem;
+	font-size: 1.2rem;
+	letter-spacing: 0.1rem;
+	margin-bottom: .5rem;
 }
 
 /* gallery styles end here */
@@ -241,7 +235,7 @@ footer {
 }
 
 footer h2 {
-	font-size: 2.3rem;
+	font-size: 1.5rem;
 	margin-bottom: 2rem;
 	color: #03045e;
 	letter-spacing: 0.2rem;
@@ -339,10 +333,9 @@ footer h2 {
 
 	/* gallery styles start here */
 
-	/* .gallery-container {
-	}
 
-	.gallery {
+	.galimage {
+		width: 50%;
 	}
 
 } */
