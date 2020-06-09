@@ -199,7 +199,7 @@ nav a:hover {
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
-	width: 50%;
+	width: 48%;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;	
@@ -225,6 +225,10 @@ nav a:hover {
 	font-size: 1.5rem;
 	letter-spacing: 0.3rem;
 }
+
+/* gallery styles end here */
+/* footer styles start here */
+
 
 footer {
 	display: flex;
@@ -275,6 +279,7 @@ footer h2 {
 .LI-simple-link:hover {
 	font-size: 2.5rem;
 }
+/* footer styles end here */
 
 /* ===== media query starting at 800px width max */
 
@@ -334,7 +339,26 @@ footer h2 {
 
 	/* gallery styles start here */
 
-	
+	.gallery-container {
+	}
+
+	.gallery {
+	}
+
+}
+
+
+/* ===== media query starting at 500px width max */
+
+/* header styles at 800px */
+
+@media(max-width:500px) {
+	header nav {
+		display:flex;
+		flex-direction: vertical;
+		/* flex-wrap: wrap; */
+		justify-content: center;
+	}
 
 
 
@@ -343,4 +367,4 @@ footer h2 {
 }
 
 
-/* ===== media query starting at 500px width max */
+
